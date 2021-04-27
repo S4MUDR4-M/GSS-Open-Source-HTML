@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Text';
+}
+
+body {
+    /*gradient background*/
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#663399, #800080);
+}
+
+nav{
+    /*navigation bar*/
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /*logo*/
+    flex-basis: 20%;
+}
+
+.logo img{
+    /*logo*/
+    width: 150px;
+}
+
+.nav-links{
+    /*page links*/
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    /*page links*/
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    /*page links*/
+    color:lightblue;
+    text-decoration: none;
+}
